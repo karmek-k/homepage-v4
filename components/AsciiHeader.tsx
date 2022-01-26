@@ -9,13 +9,10 @@ export function AsciiHeader() {
 ██   ██ ██   ██ ██   ██ ██      ██ ███████ ██   ██      ██   ██ 
   `.trim();
 
-  const ariaAttrs = {
-    'aria-label': 'karmek-k'
-  };
-
   return (
-    <h1 className={styles.header} {...ariaAttrs}>
-      <pre className={styles.pre}>{ascii}</pre>
-    </h1>
+    <>
+      <h1 className={styles.a11y}>karmek-k</h1>
+      <pre className={styles.header}>{ascii}</pre>
+    </>
   );
 }
