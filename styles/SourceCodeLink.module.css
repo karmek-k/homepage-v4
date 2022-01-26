@@ -1,0 +1,12 @@
+.link {
+  text-decoration: none;
+
+  color: #90acff;
+}
+
+.container {
+  margin-top: 1rem;
+
+  display: flex;
+  justify-content: center;
+}
