@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import { AsciiHeader } from '../components/AsciiHeader';
 import { Container } from '../components/Container';
-import { SourceCodeLink } from '../components/SourceCodeLink';
+import { FooterLink } from '../components/FooterLink';
 
 const Home: NextPage = () => {
   return (
@@ -20,7 +20,7 @@ const Home: NextPage = () => {
           laborum enim dolor!
         </main>
         <footer>
-          <SourceCodeLink />
+          <FooterLink href="//github.com/karmek-k/homepage-v4" />
         </footer>
       </Container>
     </>
