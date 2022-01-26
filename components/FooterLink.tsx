@@ -7,7 +7,7 @@ interface Props {
 export function FooterLink({ href }: Props) {
   return (
     <div className={styles.container}>
-      <a href={href} target="_blank" rel="noreferrer" className={styles.link}>
+      <a href={href} className={styles.link}>
         Page source code
       </a>
     </div>
