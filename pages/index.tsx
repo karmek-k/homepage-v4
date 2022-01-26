@@ -2,10 +2,16 @@ import type { NextPage } from 'next';
 import { AsciiHeader } from '../components/AsciiHeader';
 import { Container } from '../components/Container';
 import { FooterLink } from '../components/FooterLink';
+import Head from 'next/head';
 
 const Home: NextPage = () => {
   return (
     <>
+      <Head>
+        <meta charSet="utf-8" />
+        <html lang="en" />
+        <title>karmek-k</title>
+      </Head>
       <Container>
         <header>
           <AsciiHeader />
