@@ -1,5 +1,5 @@
 {
-  "name": "homepage-v3",
+  "name": "homepage-v4",
   "private": true,
   "scripts": {
     "dev": "next dev",
