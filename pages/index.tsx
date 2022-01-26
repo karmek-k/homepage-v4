@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import { AsciiHeader } from '../components/AsciiHeader';
 import { Container } from '../components/Container';
+import { SourceCodeLink } from '../components/SourceCodeLink';
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +19,9 @@ const Home: NextPage = () => {
           facilis quo minus blanditiis quae quidem qui sed facere? Excepturi
           laborum enim dolor!
         </main>
+        <footer>
+          <SourceCodeLink />
+        </footer>
       </Container>
     </>
   );
