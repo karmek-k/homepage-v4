@@ -1,7 +1,12 @@
 import type { NextPage } from 'next';
+import { AsciiHeader } from '../components/AsciiHeader';
 
 const Home: NextPage = () => {
-  return <h1>karmek-k</h1>;
+  return (
+    <>
+      <AsciiHeader />
+    </>
+  );
 };
 
 export default Home;
