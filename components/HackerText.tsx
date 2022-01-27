@@ -1,6 +1,8 @@
+import styles from '../styles/HackerText.module.css';
+
 export function HackerText() {
   return (
-    <div className="">
+    <div className={styles.justified}>
       <i>
         <p>
           A hacker is someone who enjoys playful cleverness—not necessarily with
