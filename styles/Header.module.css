@@ -1,0 +1,12 @@
+.header {
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    font-size: 3rem;
+  }
+}
