@@ -1,5 +1,5 @@
 import type { NextPage } from 'next';
-import { AsciiHeader } from '../components/AsciiHeader';
+import { Header } from '../components/Header';
 import { Container } from '../components/Container';
 import { FooterLink } from '../components/FooterLink';
 import Head from 'next/head';
@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       </Head>
       <Container>
         <header>
-          <AsciiHeader />
+          <Header />
         </header>
         <main>
           <HackerText />
